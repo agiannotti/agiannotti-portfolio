@@ -2,5 +2,5 @@ import React from 'react';
 import './Main.css';
 
 export default function Main() {
-  return <div>Hello, Portfolio!</div>;
+  return <div classname='main'>Hello, Portfolio!</div>;
 }
