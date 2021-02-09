@@ -13,3 +13,18 @@ html {
 * {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+a,
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+a:focus,
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
