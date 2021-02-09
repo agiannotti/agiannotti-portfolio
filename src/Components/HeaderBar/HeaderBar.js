@@ -1,6 +1,5 @@
 import React from 'react';
 import './HeaderBar.css';
-import { Link } from 'react-router-dom';
 
 import face from '../../Images/soho-self.jpg';
 import launch from '../../Images/launch.png';
