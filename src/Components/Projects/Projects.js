@@ -9,36 +9,39 @@ export default function Projects() {
       <h2>Projects</h2>
       <div className='project-section'>
         <h3>Javascript | React | Express | SQL | Node </h3>
-        <Link
-          to='https://github.com/agiannotti/foodful-vercel'
+        <a
+          rel='noopener noreferrer'
+          href='https://github.com/agiannotti/foodful-vercel'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
           Foodful
           <img className='launch-img' src={launch} alt='launch-img' />
-        </Link>
+        </a>
       </div>
       <div className='project-section'>
         <h3>Javascript | React | Express | SQL | Node </h3>
-        <Link
-          to='https://github.com/agiannotti/foodful-vercel'
+        <a
+          rel='noopener noreferrer'
+          href='https://github.com/agiannotti/bookmark-app'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
           Bookmarked
           <img className='launch-img' src={launch} alt='launch-img' />
-        </Link>
+        </a>
       </div>
       <div className='project-section'>
         <h3>Javascript | React | Express | SQL | Node </h3>
-        <Link
-          to='https://github.com/agiannotti/foodful-vercel'
+        <a
+          rel='noopener noreferrer'
+          href='https://github.com/agiannotti/quiz-app'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
           Quiz App
           <img className='launch-img' src={launch} alt='launch-img' />
-        </Link>
+        </a>
       </div>
     </div>
   );
