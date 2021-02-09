@@ -15,7 +15,7 @@ export default function Projects() {
           style={{ textDecoration: 'none' }}
         >
           Foodful
-          <img className='launch-img' src={launch} alt='click' />
+          <img className='launch-img' src={launch} alt='launch-img' />
         </Link>
       </div>
       <div className='project-section'>
@@ -25,8 +25,8 @@ export default function Projects() {
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
-          Foodful
-          <img className='launch-img' src={launch} alt='click' />
+          Bookmarked
+          <img className='launch-img' src={launch} alt='launch-img' />
         </Link>
       </div>
       <div className='project-section'>
@@ -36,8 +36,8 @@ export default function Projects() {
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
-          Foodful
-          <img className='launch-img' src={launch} alt='click' />
+          Quiz App
+          <img className='launch-img' src={launch} alt='launch-img' />
         </Link>
       </div>
     </div>

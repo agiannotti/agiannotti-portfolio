@@ -11,9 +11,9 @@ export default function HeaderBar() {
   return (
     <div className='header-bar'>
       <img className='face-img' src={face} alt='face-img' />
-      <p>
+      <div className='header-links'>
         <Link
-          to='httds://github.com/agiannotti'
+          to='https://github.com/agiannotti'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
@@ -21,8 +21,8 @@ export default function HeaderBar() {
           GitHub
           <img className='launch-img' src={launch} alt='launch-img' />
         </Link>
-      </p>
-      <p>
+      </div>
+      <div className='header-links'>
         <Link
           to='https://www.linkedin.com/in/agiannotti/'
           target='_blank'
@@ -32,7 +32,7 @@ export default function HeaderBar() {
           LinkedIn
           <img className='launch-img' src={launch} alt='launch-img' />
         </Link>
-      </p>
+      </div>
     </div>
   );
 }
