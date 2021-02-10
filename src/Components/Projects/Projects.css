@@ -22,3 +22,24 @@
 .project-section h3 {
   font-size: 8px;
 }
+
+@media (min-width: 920px) {
+  .project-container {
+    padding-top: 24px;
+    position: relative;
+    width: 600px;
+    bottom: 470px;
+    left: 450px;
+  }
+  .project-section {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .project-container h2 {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+  }
+}

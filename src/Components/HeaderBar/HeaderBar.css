@@ -1,26 +1,20 @@
 .header-bar {
-  margin: 0;
   padding: 1.3rem;
   display: flex;
   flex-direction: column;
   text-decoration: none;
   text-align: center;
   height: 10rem;
-}
-
-.header-bar p {
-  margin: 0;
-  flex-wrap: wrap;
+  max-width: 335px;
 }
 
 .face-container {
   height: 140px;
   width: 140px;
-  padding: 0.2rem;
 }
 
 .face-img {
-  height: 120px;
+  height: 122px;
   width: 120px;
 }
 
@@ -31,7 +25,7 @@
   padding-bottom: 35px;
   padding-right: 20px;
   position: relative;
-  bottom: 115px;
+  bottom: 105px;
 }
 
 .launch-img {
@@ -57,22 +51,5 @@
   top: 2px;
 }
 
-@media (min-width: 470px) {
-  /* .header-links {
-    margin: 0;
-    margin-top: 55px;
-    padding: 5px;
-    height: 30px;
-    padding-right: 22px;
-  }
-  .git-img {
-    height: 18px;
-    padding-right: 8px;
-    padding-top: 4px;
-  }
-  .linkedin-img {
-    height: 18px;
-    padding-right: 8px;
-    padding-top: 4px;
-  } */
+@media (min-width: 920px) {
 }

@@ -5,11 +5,13 @@
   padding: 1.3rem;
   padding-bottom: 0.5rem;
   line-height: 3.4rem;
+  max-width: 380px;
 }
 
 .header h1 {
   margin: 0;
   padding: 1rem;
+  max-width: 380px;
 }
 
 .header p {
@@ -19,4 +21,5 @@
   color: rgb(156, 151, 151);
   letter-spacing: 0.06rem;
   line-height: normal;
+  max-width: 280px;
 }
