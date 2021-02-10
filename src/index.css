@@ -31,10 +31,15 @@ html {
 }
 
 a,
-a:link,
-a:hover {
+a:link {
+  color: white;
 }
-a:focus,
+a:hover {
+  color: white;
+}
+a:focus {
+  color: white;
+}
 a:active {
   color: white;
 }
