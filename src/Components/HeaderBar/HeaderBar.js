@@ -9,7 +9,9 @@ import linkedin from '../../Images/linkedin.png';
 export default function HeaderBar() {
   return (
     <div className='header-bar'>
-      <img className='face-img' src={face} alt='face-img' />
+      <div className='face-container'>
+        <img className='face-img' src={face} alt='face-img' />
+      </div>
       <div className='header-links'>
         <a
           target={'_blank'}

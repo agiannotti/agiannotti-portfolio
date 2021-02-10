@@ -1,41 +1,78 @@
 .header-bar {
   margin: 0;
-  padding: 1rem;
-  padding-top: 0;
+  padding: 1.3rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-decoration: none;
+  text-align: center;
+  height: 10rem;
 }
 
 .header-bar p {
   margin: 0;
-  padding: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.face-container {
+  height: 140px;
+  width: 140px;
+  padding: 0.2rem;
 }
 
 .face-img {
   height: 120px;
-  margin: 0 25px 0 10px;
-  padding: 0.8rem;
+  width: 120px;
 }
 
 .header-links {
-  margin: 0;
-  margin-top: 55px;
-  padding: 5px;
-  height: 30px;
+  align-self: flex-end;
+  flex-direction: column;
+  width: 140px;
+  padding-bottom: 35px;
+  padding-right: 20px;
+  position: relative;
+  bottom: 115px;
 }
 
 .launch-img {
   height: 12px;
-  padding: 4px;
+  padding: 5px;
+  position: relative;
+  top: 6px;
 }
 
 .git-img {
-  height: 14px;
-  padding-right: 5px;
+  height: 18px;
+  padding-right: 8px;
+  padding-top: 4px;
+  position: relative;
+  top: 2px;
 }
 
 .linkedin-img {
-  height: 14px;
-  padding-right: 5px;
+  height: 18px;
+  padding-right: 3px;
+  padding-top: 4px;
+  position: relative;
+  top: 2px;
+}
+
+@media (min-width: 470px) {
+  /* .header-links {
+    margin: 0;
+    margin-top: 55px;
+    padding: 5px;
+    height: 30px;
+    padding-right: 22px;
+  }
+  .git-img {
+    height: 18px;
+    padding-right: 8px;
+    padding-top: 4px;
+  }
+  .linkedin-img {
+    height: 18px;
+    padding-right: 8px;
+    padding-top: 4px;
+  } */
 }
