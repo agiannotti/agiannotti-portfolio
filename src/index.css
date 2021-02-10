@@ -14,7 +14,7 @@ html {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 920px) {
   body,
   html {
     padding: 20px 65px;
