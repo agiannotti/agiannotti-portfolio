@@ -13,7 +13,7 @@
   background-color: rgb(64, 64, 70);
   letter-spacing: 0.1rem;
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
   padding: 0.5rem;
   padding-left: 1rem;
 }
@@ -58,7 +58,6 @@
 .__pictures {
   margin-top: 12px;
   margin-bottom: 12px;
-  padding-left: 12px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -92,5 +91,8 @@
     position: relative;
     bottom: 0px;
     right: 0px;
+  }
+  .__pictures {
+    padding-left: 12px;
   }
 }

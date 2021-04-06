@@ -14,18 +14,17 @@
 }
 
 .face-img {
+  padding-top: 12px;
   height: 122px;
   width: 120px;
-  margin-left: 20px;
+  margin-left: 65px;
   border-radius: 150px;
 }
 
 .header-links {
   align-self: flex-end;
   flex-direction: column;
-  width: 140px;
-  padding-bottom: 25px;
-  padding-right: 5px;
+  padding-bottom: 18px;
   position: relative;
   bottom: 125px;
 }
