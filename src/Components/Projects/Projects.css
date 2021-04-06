@@ -11,11 +11,11 @@
 
 .project-section {
   background-color: rgb(64, 64, 70);
-  height: 120px;
   letter-spacing: 0.1rem;
   margin: 0;
   margin-bottom: 12px;
-  padding: 1.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
 }
 
 .project-container h2 {
@@ -28,11 +28,48 @@
   font-weight: 100;
 }
 
+.repo__link {
+  font-size: 12px;
+  padding-right: 12px;
+  padding: 12px;
+}
+
+.live__link {
+  font-size: 12px;
+}
+
+.app__img {
+  max-height: 250px;
+  border-radius: 15px;
+  padding: 4px;
+}
+
+.__projectTitle {
+  padding-left: 10px;
+}
+
+.__pictures {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 250px;
+}
+.__pictures::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
 @media (min-width: 800px) {
   .project-container {
     padding-top: 24px;
     position: relative;
-    width: 410px;
+    max-width: 600px;
     bottom: 460px;
     left: 390px;
   }
@@ -40,6 +77,8 @@
     position: relative;
     bottom: 0px;
     right: 0px;
+    min-width: auto;
+    min-height: 250px;
   }
 
   .project-container h2 {

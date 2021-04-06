@@ -1,11 +1,11 @@
 import React from 'react';
 import './HeaderBar.css';
 
-import face from '../../Images/soho-self.jpg';
-import launch from '../../Images/launch.png';
-import github from '../../Images/github.png';
-import linkedin from '../../Images/linkedin.png';
-import emailimg from '../../Images/Email.png';
+import face from '../../Images/Photo/soho-self.jpg';
+import launch from '../../Images/Thumbnails/launch.png';
+import github from '../../Images/Thumbnails/github.png';
+import linkedin from '../../Images/Thumbnails/linkedin.png';
+import emailimg from '../../Images/Thumbnails/Email.png';
 
 export default function HeaderBar() {
   return (
