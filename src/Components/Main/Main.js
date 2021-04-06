@@ -10,7 +10,7 @@ export default function Main() {
         <header className='header'>
           <h1>Hello, I'm Anthony Giannotti.</h1>
           <p>
-            I'm a Chicago-based software developer, primarily focusing on
+            I'm a Chicago-based full-stack web developer, primarily focused on
             Javascript, React, SQL, and Node. I have a passion for dynamic
             applications, thinking broadly, and tuning into the latest
             advancements in web technologies.

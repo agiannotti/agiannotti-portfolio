@@ -6,6 +6,7 @@
   text-align: center;
   height: 10rem;
   max-width: 335px;
+  max-height: 300px;
 }
 
 .face-container {
@@ -24,10 +25,10 @@
   align-self: flex-end;
   flex-direction: column;
   width: 140px;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
   padding-right: 5px;
   position: relative;
-  bottom: 105px;
+  bottom: 125px;
 }
 
 .launch-img {
@@ -51,6 +52,11 @@
   padding-top: 4px;
   position: relative;
   top: 2px;
+}
+
+.email-img {
+  width: 18px;
+  padding-right: 3px;
 }
 
 .header-links:hover {

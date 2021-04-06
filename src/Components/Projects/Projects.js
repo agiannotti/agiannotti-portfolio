@@ -7,7 +7,17 @@ export default function Projects() {
     <div className='project-container'>
       <h2>Projects</h2>
       <div className='project-section'>
-        <h3>Javascript | React | Express | SQL | Node </h3>
+        <a
+          rel='noopener noreferrer'
+          href='https://github.com/agiannotti/quiz-app'
+          target='_blank'
+          style={{ textDecoration: 'none' }}
+        >
+          Console.dev
+          <img className='launch-img' src={launch} alt='launch-img' />
+        </a>
+      </div>
+      <div className='project-section'>
         <a
           rel='noopener noreferrer'
           href='https://github.com/agiannotti/foodful-vercel'
@@ -19,7 +29,6 @@ export default function Projects() {
         </a>
       </div>
       <div className='project-section'>
-        <h3>Javascript | React | Express | SQL | Node </h3>
         <a
           rel='noopener noreferrer'
           href='https://github.com/agiannotti/bookmark-app'
@@ -31,7 +40,6 @@ export default function Projects() {
         </a>
       </div>
       <div className='project-section'>
-        <h3>Javascript | React | Express | SQL | Node </h3>
         <a
           rel='noopener noreferrer'
           href='https://github.com/agiannotti/quiz-app'

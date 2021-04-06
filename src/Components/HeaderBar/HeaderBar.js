@@ -5,6 +5,7 @@ import face from '../../Images/soho-self.jpg';
 import launch from '../../Images/launch.png';
 import github from '../../Images/github.png';
 import linkedin from '../../Images/linkedin.png';
+import emailimg from '../../Images/Email.png';
 
 export default function HeaderBar() {
   return (
@@ -33,6 +34,18 @@ export default function HeaderBar() {
         >
           <img className='linkedin-img' src={linkedin} alt='linkedin' />
           LinkedIn
+          <img className='launch-img' src={launch} alt='launch-img' />
+        </a>
+      </div>
+      <div className='header-links'>
+        <a
+          target={'_blank'}
+          rel='noopener noreferrer'
+          href={`https://mail.google.com/mail/?view=cm&source=mailto&to=[aj.gianno@gmail.com]`}
+          style={{ textDecoration: 'none' }}
+        >
+          <img className='email-img' src={emailimg} alt='email' />
+          Email
           <img className='launch-img' src={launch} alt='launch-img' />
         </a>
       </div>
