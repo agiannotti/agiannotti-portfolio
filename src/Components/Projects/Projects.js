@@ -159,7 +159,7 @@ export default function Projects() {
         <a
           className='repo__link'
           rel='noopener noreferrer'
-          href='https://github.com/agiannotti/console.dev-client'
+          href='https://github.com/agiannotti/spaced-rep-client'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
