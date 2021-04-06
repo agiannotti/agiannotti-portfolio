@@ -72,7 +72,7 @@ export default function Projects() {
         <a
           className='live__link'
           rel='noopener noreferrer'
-          href='https://console-dev-client.vercel.app/'
+          href='https://foodful.agiannotti.vercel.app/'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
@@ -106,7 +106,7 @@ export default function Projects() {
         <a
           className='live__link'
           rel='noopener noreferrer'
-          href='https://console-dev-client.vercel.app/'
+          href='https://agiannotti.github.io/bookmark-app/dist/'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
@@ -138,7 +138,7 @@ export default function Projects() {
         <a
           className='live__link'
           rel='noopener noreferrer'
-          href='https://console-dev-client.vercel.app/'
+          href='https://agiannotti.github.io/quiz-app/'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
@@ -170,7 +170,7 @@ export default function Projects() {
         <a
           className='live__link'
           rel='noopener noreferrer'
-          href='https://console-dev-client.vercel.app/'
+          href='https://spaced-rep-ajg.vercel.app/'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
