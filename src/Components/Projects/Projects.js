@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css';
 import launch from '../../Images/Thumbnails/launch.png';
-import github from '../../Images/Thumbnails/github.png';
 import bookmark1 from '../../Images/Apps/Bookmarked/add.png';
 import bookmark2 from '../../Images/Apps/Bookmarked/list.png';
 import bookmark3 from '../../Images/Apps/Bookmarked/splash.png';
