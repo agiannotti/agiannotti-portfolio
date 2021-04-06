@@ -28,6 +28,12 @@
   font-weight: 100;
 }
 
+.__projectDesc {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 14px;
+}
+
 .repo__link {
   font-size: 12px;
   padding-right: 12px;
@@ -45,6 +51,7 @@
 }
 
 .__projectTitle {
+  font-size: 18px;
   padding-left: 10px;
 }
 

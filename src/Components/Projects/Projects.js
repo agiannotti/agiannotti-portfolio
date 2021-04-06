@@ -26,6 +26,7 @@ export default function Projects() {
       <h2>Projects</h2>
       <div className='project-section'>
         <p className='__projectTitle'>Console.dev</p>
+        <p className='__projectDesc'>Code Typing Test Web Application.</p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -54,6 +55,10 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Foodful</p>
+        <p className='__projectDesc'>
+          Foodful aims to unify communities and feed hungry families and
+          individuals by creating a platform for people to share resources.
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -85,6 +90,9 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Bookmarked</p>
+        <p className='__projectDesc'>
+          A minimalist display of bookmark functionality!
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -114,6 +122,9 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Quiz App</p>
+        <p className='__projectDesc'>
+          A quiz application utilizing JS and Jquery.
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -143,6 +154,9 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Spaced-Repetition</p>
+        <p className='__projectDesc'>
+          Learn latin phrases by utilizing the spaced repetition technique.
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
