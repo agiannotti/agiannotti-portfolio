@@ -98,9 +98,7 @@ export default function Projects() {
         <p className='__projectDesc'>
           A minimalist display of bookmark functionality!
         </p>
-        <p className='__projectTools'>
-          Javascript | React, Hooks, Context | Node | Express
-        </p>
+        <p className='__projectTools'>Javascript | Jquery | Webpack</p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -133,9 +131,7 @@ export default function Projects() {
         <p className='__projectDesc'>
           A quiz application utilizing JS and Jquery.
         </p>
-        <p className='__projectTools'>
-          Javascript | React, Hooks, Context | Node | Express
-        </p>
+        <p className='__projectTools'>Javascript | Jquery</p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
