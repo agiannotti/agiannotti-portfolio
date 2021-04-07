@@ -166,7 +166,7 @@ export default function Projects() {
         </p>
         <p className='__projectTools'>
           {' '}
-          SQL | Vercel | Heroku | Node | Express
+          Javascript | SQL | Vercel | Heroku | Node | Express
         </p>
         <a
           className='repo__link'
