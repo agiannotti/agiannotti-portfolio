@@ -41,7 +41,7 @@ export default function HeaderBar() {
         <a
           target={'_blank'}
           rel='noopener noreferrer'
-          href={`https://mail.google.com/mail/?view=cm&source=mailto&to=[aj.gianno@gmail.com]`}
+          href={`mailto:${'aj.gianno@gmail.com'}`}
           style={{ textDecoration: 'none' }}
         >
           <img className='email-img' src={emailimg} alt='email' />
