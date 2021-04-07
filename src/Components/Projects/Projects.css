@@ -16,6 +16,7 @@
   margin-bottom: 30px;
   padding: 0.5rem;
   padding-left: 1rem;
+  width: 95%;
 }
 
 .project-container h2 {
@@ -83,7 +84,7 @@
     position: relative;
     bottom: 0px;
     right: 0px;
-    min-width: auto;
+    width: 425px;
     min-height: 250px;
   }
 
