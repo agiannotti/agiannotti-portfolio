@@ -62,7 +62,7 @@ export default function Projects() {
           individuals by creating a platform for people to share resources.
         </p>
         <p className='__projectTools'>
-          Javascript | React, Hooks, Context | Node | Express
+          Javascript | React | SQL | Node | Express
         </p>
         <a
           className='repo__link'

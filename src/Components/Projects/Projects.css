@@ -74,7 +74,7 @@
   max-height: 250px;
 }
 .__pictures::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
   height: 8px;
   background-color: #aaa;
 }
@@ -100,7 +100,7 @@
     right: 0px;
   }
   .__pictures {
-    padding-left: 12px;
+    padding-left: 4px;
     width: 95%;
   }
   .app__img {
