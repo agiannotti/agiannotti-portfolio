@@ -1,8 +1,10 @@
 .project-container {
   letter-spacing: 0.1rem;
   margin: 0;
-  padding: 1.5rem;
   padding-top: 0;
+  font-size: 26px;
+  padding-left: 20px;
+  padding-right: 30px;
 }
 
 .project-section:hover {
@@ -14,14 +16,13 @@
   letter-spacing: 0.1rem;
   margin: 0;
   margin-bottom: 30px;
-  padding: 0.5rem;
-  padding-left: 1rem;
+  padding: 1rem;
   width: 95%;
 }
 
 .project-container h2 {
   margin: 0;
-  padding: 12px;
+  padding-bottom: 20px;
 }
 
 .project-section h3 {
@@ -47,12 +48,13 @@
 
 .app__img {
   max-height: 250px;
-  border-radius: 15px;
-  padding: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
 }
 
 .__projectTitle {
-  font-size: 18px;
+  margin: 0;
+  font-size: 20px;
   padding-left: 10px;
 }
 .__projectTools {
@@ -81,14 +83,14 @@
   .project-container {
     position: relative;
     max-width: 600px;
-    bottom: 460px;
-    left: 390px;
+    bottom: 490px;
+    left: 400px;
   }
   .project-section {
     position: relative;
     bottom: 0px;
     right: 0px;
-    width: 425px;
+    width: 400px;
     min-height: 250px;
   }
 
@@ -99,6 +101,9 @@
   }
   .__pictures {
     padding-left: 12px;
-    width: 90%;
+    width: 95%;
+  }
+  .app__img {
+    padding-left: 10px;
   }
 }

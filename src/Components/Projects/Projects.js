@@ -22,12 +22,12 @@ import spacedrep4 from '../../Images/Apps/SpacedRep/login.png';
 export default function Projects() {
   return (
     <div className='project-container'>
-      <h2>Projects</h2>
+      <h2 className='__projectsTagline'>Projects</h2>
       <div className='project-section'>
         <p className='__projectTitle'>Console.dev</p>
         <p className='__projectDesc'>Code Typing Test Web Application.</p>
         <p className='__projectTools'>
-          Javascript | React, Hooks, Context | Node | Express
+          Javascript | React, Hooks, Context | Node | Express | Mocha, Chai
         </p>
         <a
           className='repo__link'
