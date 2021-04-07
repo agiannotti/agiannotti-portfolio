@@ -55,6 +55,10 @@
   font-size: 18px;
   padding-left: 10px;
 }
+.__projectTools {
+  font-size: 9px;
+  padding-left: 10px;
+}
 
 .__pictures {
   margin-top: 12px;
@@ -95,5 +99,6 @@
   }
   .__pictures {
     padding-left: 12px;
+    width: 90%;
   }
 }

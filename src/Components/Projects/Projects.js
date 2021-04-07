@@ -26,6 +26,9 @@ export default function Projects() {
       <div className='project-section'>
         <p className='__projectTitle'>Console.dev</p>
         <p className='__projectDesc'>Code Typing Test Web Application.</p>
+        <p className='__projectTools'>
+          Javascript | React, Hooks, Context | Node | Express
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -57,6 +60,9 @@ export default function Projects() {
         <p className='__projectDesc'>
           Foodful aims to unify communities and feed hungry families and
           individuals by creating a platform for people to share resources.
+        </p>
+        <p className='__projectTools'>
+          Javascript | React, Hooks, Context | Node | Express
         </p>
         <a
           className='repo__link'
@@ -92,6 +98,9 @@ export default function Projects() {
         <p className='__projectDesc'>
           A minimalist display of bookmark functionality!
         </p>
+        <p className='__projectTools'>
+          Javascript | React, Hooks, Context | Node | Express
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -124,6 +133,9 @@ export default function Projects() {
         <p className='__projectDesc'>
           A quiz application utilizing JS and Jquery.
         </p>
+        <p className='__projectTools'>
+          Javascript | React, Hooks, Context | Node | Express
+        </p>
         <a
           className='repo__link'
           rel='noopener noreferrer'
@@ -155,6 +167,10 @@ export default function Projects() {
         <p className='__projectTitle'>Spaced-Repetition</p>
         <p className='__projectDesc'>
           Learn latin phrases by utilizing the spaced repetition technique.
+        </p>
+        <p className='__projectTools'>
+          {' '}
+          SQL | Vercel | Heroku | Node | Express
         </p>
         <a
           className='repo__link'
