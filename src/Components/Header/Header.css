@@ -38,6 +38,7 @@
   list-style-type: none;
   display: inline-flex;
   max-height: 175px;
+  padding-left: 26px;
 }
 
 .header-box div:nth-child(1) {
