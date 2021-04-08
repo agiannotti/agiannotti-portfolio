@@ -90,6 +90,9 @@
   .project-container {
     width: 50%;
   }
+  .header-box {
+    padding-left: 65px;
+  }
 }
 @media (min-width: 800px) {
   .main {
