@@ -97,6 +97,9 @@
     position: fixed;
     /* left: 35px; */
   }
+  .header {
+    max-width: 450px;
+  }
   .project-container {
     width: 53%;
     position: absolute;
@@ -154,7 +157,7 @@
 
 @media (min-width: 1200px) {
   .main {
-    left: 240px;
+    left: 100px;
   }
 
   .__projectsTagline {
@@ -169,7 +172,7 @@
 
 @media (min-width: 1500px) {
   .main {
-    left: 250px;
+    left: 170px;
   }
   .project-container {
     width: 55%;
