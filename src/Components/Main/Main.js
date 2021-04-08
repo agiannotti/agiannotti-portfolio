@@ -27,6 +27,7 @@ export default function Main() {
           </div>
         </header>
         <Header />
+        <footer className='main-footer'>©Agiannotti</footer>
       </div>
       <Projects />
     </div>

@@ -2,22 +2,22 @@ import React from 'react';
 import './Projects.css';
 import launch from '../../Images/Thumbnails/launch.png';
 import bookmark1 from '../../Images/Apps/Bookmarked/add.png';
-import bookmark2 from '../../Images/Apps/Bookmarked/list.png';
-import bookmark3 from '../../Images/Apps/Bookmarked/splash.png';
+// import bookmark2 from '../../Images/Apps/Bookmarked/list.png';
+// import bookmark3 from '../../Images/Apps/Bookmarked/splash.png';
 import console1 from '../../Images/Apps/Console.dev/login.png';
-import console2 from '../../Images/Apps/Console.dev/main.png';
+// import console2 from '../../Images/Apps/Console.dev/main.png';
 import foodful1 from '../../Images/Apps/Foodful/foodful1.png';
-import foodful2 from '../../Images/Apps/Foodful/foodful2.png';
-import foodful3 from '../../Images/Apps/Foodful/foodful3.png';
-import foodful4 from '../../Images/Apps/Foodful/foodful4.png';
-import foodful5 from '../../Images/Apps/Foodful/foodful5.png';
+// import foodful2 from '../../Images/Apps/Foodful/foodful2.png';
+// import foodful3 from '../../Images/Apps/Foodful/foodful3.png';
+// import foodful4 from '../../Images/Apps/Foodful/foodful4.png';
+// import foodful5 from '../../Images/Apps/Foodful/foodful5.png';
 import quiz1 from '../../Images/Apps/Quiz/fin.png';
-import quiz2 from '../../Images/Apps/Quiz/question.png';
-import quiz3 from '../../Images/Apps/Quiz/splash.png';
+// import quiz2 from '../../Images/Apps/Quiz/question.png';
+// import quiz3 from '../../Images/Apps/Quiz/splash.png';
 import spacedrep1 from '../../Images/Apps/SpacedRep/feedback.png';
-import spacedrep2 from '../../Images/Apps/SpacedRep/dashboard.png';
-import spacedrep3 from '../../Images/Apps/SpacedRep/learnPage.png';
-import spacedrep4 from '../../Images/Apps/SpacedRep/login.png';
+// import spacedrep2 from '../../Images/Apps/SpacedRep/dashboard.png';
+// import spacedrep3 from '../../Images/Apps/SpacedRep/learnPage.png';
+// import spacedrep4 from '../../Images/Apps/SpacedRep/login.png';
 
 export default function Projects() {
   return (
@@ -196,6 +196,7 @@ export default function Projects() {
           {/* <img className='app__img' src={spacedrep4} alt='app-img' /> */}
         </div>
       </div>
+      <footer className='mobile-footer'>©Agiannotti</footer>
     </div>
   );
 }

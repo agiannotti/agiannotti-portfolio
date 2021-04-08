@@ -15,6 +15,8 @@
   margin-bottom: 30px;
   padding: 1rem;
   filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(31, 28, 28));
+  border-radius: 12px;
+  max-width: 328px;
 }
 
 .project-container h2 {
@@ -39,6 +41,7 @@
 }
 
 .app__img {
+  max-height: 250px;
   width: 324px;
   display: flex;
   justify-content: center;
@@ -87,27 +90,26 @@
 }
 
 @media (min-width: 800px) {
-  .theBiggestBoy {
-    display: flex;
-  }
   .main {
     max-width: 80%;
     max-width: 450px;
     width: 50%;
     position: fixed;
+    /* left: 35px; */
   }
   .project-container {
-    width: 54%;
+    width: 53%;
     position: absolute;
     right: 0px;
     background-color: rgb(121, 125, 128);
   }
   .project-section {
-    width: 95%;
+    width: 85%;
     max-width: 90%;
     margin: auto;
     margin-bottom: 20px;
     padding-bottom: 35px;
+    max-width: 569px;
   }
   .repo__link {
     padding-left: 105px;
@@ -144,6 +146,41 @@
     justify-content: center;
   }
   .app__img {
-    width: 450px;
+    max-height: none;
+    width: 400px;
+    border-radius: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    left: 240px;
+  }
+
+  .__projectsTagline {
+    padding-left: 90px;
+  }
+
+  .repo__link {
+    padding-left: 170px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .main {
+    left: 250px;
+  }
+  .project-container {
+    width: 55%;
+  }
+
+  .__projectsTagline {
+    padding-left: 190px;
+  }
+
+  .repo__link {
+    padding-left: 150px;
+    padding-bottom: 0;
   }
 }
