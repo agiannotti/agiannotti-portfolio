@@ -15,14 +15,14 @@ export default function Main() {
               React, SQL, and Node. I have a passion for dynamic and interesting
               applications, thinking broadly, and tuning into the latest
               advancements in software development.
-              <br />
+              {/* <br />
               <br />I strive to learn, to focus, and to listen. My goal is to
               become part of a team of hardworking developers, and to hone my
               own role and skillset.
               <br />
               <br />I enjoy sudoku, cold-weather, CSS, and black-coffee. I began
               my programming journey when I was a kid, flashing various devices
-              with firmware to run Pokemon games and other JRPGS.
+              with firmware to run Pokemon games and other JRPGS. */}
             </p>
           </div>
         </header>
