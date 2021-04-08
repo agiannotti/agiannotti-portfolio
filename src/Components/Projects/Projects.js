@@ -52,7 +52,7 @@ export default function Projects() {
         <br />
         <div className='__pictures'>
           <img className='app__img' src={console1} alt='app-img' />
-          <img className='app__img' src={console2} alt='app-img' />
+          {/* <img className='app__img' src={console2} alt='app-img' /> */}
         </div>
       </div>
       <div className='project-section'>
@@ -87,10 +87,10 @@ export default function Projects() {
         <br />
         <div className='__pictures'>
           <img className='app__img' src={foodful1} alt='app-img' />
-          <img className='app__img' src={foodful2} alt='app-img' />
-          <img className='app__img' src={foodful3} alt='app-img' />
-          <img className='app__img' src={foodful4} alt='app-img' />
-          <img className='app__img' src={foodful5} alt='app-img' />
+          {/* <img className='app__img' src={foodful2} alt='app-img' /> */}
+          {/* <img className='app__img' src={foodful3} alt='app-img' /> */}
+          {/* <img className='app__img' src={foodful4} alt='app-img' /> */}
+          {/* <img className='app__img' src={foodful5} alt='app-img' /> */}
         </div>
       </div>
       <div className='project-section'>
@@ -122,8 +122,8 @@ export default function Projects() {
         <br />
         <div className='__pictures'>
           <img className='app__img' src={bookmark1} alt='app-img' />
-          <img className='app__img' src={bookmark2} alt='app-img' />
-          <img className='app__img' src={bookmark3} alt='app-img' />
+          {/* <img className='app__img' src={bookmark2} alt='app-img' /> */}
+          {/* <img className='app__img' src={bookmark3} alt='app-img' /> */}
         </div>
       </div>
       <div className='project-section'>
@@ -155,8 +155,8 @@ export default function Projects() {
         <br />
         <div className='__pictures'>
           <img className='app__img' src={quiz1} alt='app-img' />
-          <img className='app__img' src={quiz2} alt='app-img' />
-          <img className='app__img' src={quiz3} alt='app-img' />
+          {/* <img className='app__img' src={quiz2} alt='app-img' /> */}
+          {/* <img className='app__img' src={quiz3} alt='app-img' /> */}
         </div>
       </div>
       <div className='project-section'>
@@ -191,9 +191,9 @@ export default function Projects() {
         <br />
         <div className='__pictures'>
           <img className='app__img' src={spacedrep1} alt='app-img' />
-          <img className='app__img' src={spacedrep2} alt='app-img' />
-          <img className='app__img' src={spacedrep3} alt='app-img' />
-          <img className='app__img' src={spacedrep4} alt='app-img' />
+          {/* <img className='app__img' src={spacedrep2} alt='app-img' /> */}
+          {/* <img className='app__img' src={spacedrep3} alt='app-img' /> */}
+          {/* <img className='app__img' src={spacedrep4} alt='app-img' /> */}
         </div>
       </div>
     </div>

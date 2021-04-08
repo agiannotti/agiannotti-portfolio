@@ -9,25 +9,10 @@ html {
   background-color: hsl(220, 13%, 18%);
   min-height: 100vh;
   box-sizing: border-box;
-  width: 100%;
 }
 
 * {
   font-family: 'Noto Sans KR', sans-serif;
-}
-
-@media (min-width: 1200px) {
-  body,
-  html {
-    padding: 20px 65px;
-  }
-}
-
-@media (min-width: 1600px) {
-  body,
-  html {
-    padding: 25px 225px;
-  }
 }
 
 a,

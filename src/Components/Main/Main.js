@@ -5,7 +5,7 @@ import Projects from '../Projects/Projects';
 
 export default function Main() {
   return (
-    <>
+    <div className='theBiggestBoy'>
       <div className='main'>
         <header className='header'>
           <div className='__headline'>
@@ -29,6 +29,6 @@ export default function Main() {
         <Header />
       </div>
       <Projects />
-    </>
+    </div>
   );
 }

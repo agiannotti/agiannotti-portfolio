@@ -25,6 +25,7 @@
 
 .header p {
   margin: 0;
+  margin-bottom: 20px;
   padding: 1rem;
   font-size: 0.7rem;
   color: rgb(156, 151, 151);
@@ -94,36 +95,3 @@
 .header-links:hover {
   filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0));
 }
-
-@media (min-width: 800px) {
-  .header-bar {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    text-align: center;
-    height: 10rem;
-    max-width: 335px;
-    max-height: 300px;
-  }
-
-  .face-container {
-    height: 140px;
-    width: 140px;
-  }
-
-  .face-img {
-    padding-top: 12px;
-    height: 122px;
-    width: 120px;
-    margin-left: 65px;
-    border-radius: 150px;
-  }
-
-  .header-links {
-    align-self: flex-end;
-    flex-direction: column;
-    padding-bottom: 18px;
-    position: relative;
-    bottom: 125px;
-  }
-} ;
