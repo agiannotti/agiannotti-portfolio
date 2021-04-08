@@ -7,6 +7,7 @@
   letter-spacing: 0.1rem;
   font-size: 26px;
   min-width: 400px;
+  padding-top: 25px;
 }
 .project-section {
   background-color: rgb(64, 64, 70);
@@ -28,6 +29,7 @@
 .repo__link {
   font-size: 12px;
   padding-left: 24px;
+  padding-top: 10px;
 }
 .live__link {
   font-size: 12px;
@@ -104,8 +106,8 @@
     width: 85%;
     max-width: 90%;
     margin: auto;
-    margin-bottom: 20px;
-    padding-bottom: 35px;
+    margin-top: 30px;
+    padding-bottom: 50px;
     max-width: 569px;
   }
   .repo__link {
@@ -119,8 +121,7 @@
   }
   .__projectsTagline {
     padding-left: 45px;
-    display: flex;
-    justify-content: flex-start;
+    margin-top: 50px;
   }
   .__projectDesc {
     padding-left: 18px;
@@ -165,7 +166,7 @@
     left: 170px;
   }
   .__projectsTagline {
-    padding-left: 190px;
+    padding-left: 145px;
   }
   .repo__link {
     padding-left: 150px;
