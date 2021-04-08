@@ -91,7 +91,7 @@
     width: 50%;
   }
   .header-box {
-    padding-left: 65px;
+    padding-left: 75px;
   }
 }
 @media (min-width: 800px) {
@@ -108,6 +108,10 @@
     position: absolute;
     right: 0px;
     background-color: rgb(121, 125, 128);
+  }
+  .header-box {
+    padding-top: 70px;
+    padding-left: 30px;
   }
   .project-section {
     width: 85%;
@@ -158,6 +162,9 @@
 @media (min-width: 1200px) {
   .main {
     left: 100px;
+  }
+  .header-box {
+    padding-left: 75px;
   }
   .__projectsTagline {
     padding-left: 90px;
