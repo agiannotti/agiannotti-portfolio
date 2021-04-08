@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+}
+
+.__headline {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  padding: 1.3rem;
+  padding-bottom: 0.5rem;
+  line-height: 3.4rem;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  margin: auto;
+  margin: 4px 10%;
+  max-height: 175px;
+}
+
+.header h1 {
+  font-size: 38px;
+  margin: 0;
+  padding: 1rem;
+  line-height: 42px;
+  letter-spacing: 0px;
+}
+
+.header p {
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.7rem;
+  color: rgb(156, 151, 151);
+  letter-spacing: 0.06rem;
+  line-height: normal;
+}
+
+.header-links {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+/* .launch-img {
+  position: relative;
+  height: 12px;
+  padding: 5px;
+  top: 6px;
+} */
+.face-img {
+  height: 122px;
+  width: 120px;
+  border-radius: 150px;
+}
+
+.launch-img {
+  height: 20px;
+}
+
+.git-img {
+  height: 20px;
+}
+
+.linkedin-img {
+  height: 20px;
+}
+
+.email-img {
+  height: 20px;
+}
+
+.header-links:hover {
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0));
+}
+
+@media (min-width: 800px) {
+  .header-bar {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    height: 10rem;
+    max-width: 335px;
+    max-height: 300px;
+  }
+
+  .face-container {
+    height: 140px;
+    width: 140px;
+  }
+
+  .face-img {
+    padding-top: 12px;
+    height: 122px;
+    width: 120px;
+    margin-left: 65px;
+    border-radius: 150px;
+  }
+
+  .header-links {
+    align-self: flex-end;
+    flex-direction: column;
+    padding-bottom: 18px;
+    position: relative;
+    bottom: 125px;
+  }
+} ;

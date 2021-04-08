@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeaderBar.css';
+import './Header.css';
 
 import face from '../../Images/Photo/soho-self.jpg';
 import launch from '../../Images/Thumbnails/launch.png';
@@ -9,10 +9,8 @@ import emailimg from '../../Images/Thumbnails/Email.png';
 
 export default function HeaderBar() {
   return (
-    <div className='header-bar'>
-      <div className='face-container'>
-        <img className='face-img' src={face} alt='face-img' />
-      </div>
+    <div className='header-box'>
+      <img className='face-img' src={face} alt='face-img' />
       <div className='header-links'>
         <a
           target={'_blank'}
