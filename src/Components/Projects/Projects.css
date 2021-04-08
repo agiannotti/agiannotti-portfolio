@@ -50,6 +50,9 @@
   max-height: 250px;
   padding-bottom: 4px;
   padding-left: 4px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .__projectTitle {
