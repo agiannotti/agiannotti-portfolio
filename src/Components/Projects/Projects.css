@@ -18,6 +18,7 @@
   margin-bottom: 30px;
   padding: 1rem;
   width: 95%;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(31, 28, 28));
 }
 
 .project-container h2 {
@@ -55,14 +56,20 @@
   margin: auto;
 }
 
+.__projectTools {
+  font-size: 9px;
+  padding-left: 10px;
+}
+
 .__projectTitle {
   margin: 0;
   font-size: 20px;
   padding-left: 10px;
 }
-.__projectTools {
-  font-size: 9px;
-  padding-left: 10px;
+.__projectsTagline {
+  filter: drop-shadow(0 0 0.1rem rgb(0, 0, 0));
+  padding-top: 0px;
+  padding-left: 1rem;
 }
 
 .__pictures {
@@ -75,6 +82,7 @@
   overflow: scroll;
   overflow-x: hidden;
   max-height: 250px;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(31, 28, 28));
 }
 .__pictures::-webkit-scrollbar {
   width: 3px;
