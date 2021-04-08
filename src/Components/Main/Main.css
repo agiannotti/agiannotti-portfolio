@@ -1,12 +1,13 @@
 .main-footer {
   color: rgb(121, 125, 128);
   display: flex;
-  margin-top: 245px;
+  margin-top: 145px;
   justify-content: center;
   font-size: 12px;
+  display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 40px) {
   .main-footer {
     display: none;
   }

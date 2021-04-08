@@ -88,6 +88,11 @@
   height: 8px;
   background-color: #aaa;
 }
+@media (min-width: 450px) {
+  .project-container {
+    padding-left: 90px;
+  }
+}
 
 @media (min-width: 800px) {
   .main {
