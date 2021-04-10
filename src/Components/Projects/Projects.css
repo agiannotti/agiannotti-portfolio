@@ -1,5 +1,7 @@
 .main {
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-container {
@@ -10,7 +12,6 @@
   width: 95%;
   letter-spacing: 0.1rem;
   font-size: 26px;
-  min-width: 400px;
   padding-top: 25px;
 }
 .project-section {
@@ -32,17 +33,16 @@
 }
 .repo__link {
   font-size: 12px;
-  padding-left: 24px;
-  padding-top: 10px;
+  padding-right: 22px;
 }
 .live__link {
   font-size: 12px;
-  padding-left: 75px;
+  padding-left: 22px;
 }
 .app__img {
   max-width: 100%;
   max-height: 250px;
-  width: 324px;
+  width: 320px;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -90,9 +90,10 @@
 @media (min-width: 450px) {
   .project-container {
     width: 50%;
+    min-width: 500px;
   }
   .header-box {
-    padding-left: 75px;
+    padding-left: 55px;
   }
 }
 @media (min-width: 800px) {
@@ -103,16 +104,17 @@
   }
   .header {
     max-width: 450px;
+    padding-left: 55px;
   }
   .project-container {
+    border-radius: 20px;
     width: 50%;
     position: absolute;
     right: 0px;
     background-color: rgb(121, 125, 128);
   }
   .header-box {
-    padding-top: 70px;
-    padding-left: 30px;
+    padding-top: 35px;
   }
   .project-section {
     width: 85%;
@@ -122,9 +124,12 @@
     padding-bottom: 50px;
     max-width: 569px;
   }
-  .repo__link {
-    padding-left: 105px;
-    padding-bottom: 0;
+
+  .__repo__live {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
   }
   .__projectTitle {
     padding-left: 18px;
@@ -150,23 +155,23 @@
   .__pictures {
     padding-top: 0;
     margin-top: 30px;
-    max-height: fit-content;
+    margin-top: 0;
     display: flex;
     justify-content: center;
   }
   .app__img {
     max-height: none;
-    width: 400px;
+    width: 330px;
   }
 }
 
 @media (min-width: 1200px) {
   .main {
-    left: 100px;
+    display: flex;
+    flex-direction: column;
   }
   .__headline {
     padding-top: 22px;
-    padding-left: 70px;
   }
   .header-box {
     padding-left: 58px;
@@ -175,8 +180,8 @@
     padding-left: 90px;
   }
   .repo__link {
-    padding-left: 170px;
-    padding-bottom: 0;
+    /* padding-left: 170px; */
+    /* padding-bottom: 0; */
   }
 }
 
@@ -188,7 +193,7 @@
     padding-left: 145px;
   }
   .repo__link {
-    padding-left: 150px;
-    padding-bottom: 0;
+    /* padding-left: 150px; */
+    /* padding-bottom: 0; */
   }
 }
