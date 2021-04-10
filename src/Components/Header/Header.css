@@ -13,6 +13,7 @@
   padding: 1.3rem;
   padding-bottom: 0.5rem;
   line-height: 3.4rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgb(61, 58, 58));
 }
 
 .header h1 {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./Projects.css";
 import launch from "../../Images/Thumbnails/launch.png";
@@ -18,6 +19,16 @@ import spacedrep1 from "../../Images/Apps/SpacedRep/feedback.png";
 // import spacedrep2 from '../../Images/Apps/SpacedRep/dashboard.png';
 // import spacedrep3 from '../../Images/Apps/SpacedRep/learnPage.png';
 // import spacedrep4 from '../../Images/Apps/SpacedRep/login.png';
+=======
+import React from 'react';
+import './Projects.css';
+import launch from '../../Images/Thumbnails/launch.png';
+import bookmark1 from '../../Images/Apps/Bookmarked/Main.png';
+import console1 from '../../Images/Apps/Console.dev/Main.png';
+import foodful1 from '../../Images/Apps/Foodful/Main.png';
+import quiz1 from '../../Images/Apps/Quiz/Main.png';
+import spacedrep1 from '../../Images/Apps/SpacedRep/Main.png';
+>>>>>>> 8a6bd15746ef78b7692eccebeb50a41c8af12bb3
 
 export default function Projects() {
   return (
@@ -29,6 +40,7 @@ export default function Projects() {
         <p className="__projectTools">
           Javascript | React, Hooks, Context | Node | Express | Mocha, Chai
         </p>
+<<<<<<< HEAD
         <a
           className="repo__link"
           rel="noopener noreferrer"
@@ -53,6 +65,33 @@ export default function Projects() {
         <div className="__pictures">
           {/* <img className='app__img' src={console1} alt='app-img' /> */}
           <img className="app__img" src={console2} alt="app-img" />
+=======
+        <div className='__repo__live'>
+          <a
+            className='repo__link'
+            rel='noopener noreferrer'
+            href='https://github.com/agiannotti/console.dev-client'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Repository
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+          <a
+            className='live__link'
+            rel='noopener noreferrer'
+            href='https://console-dev-client.vercel.app/'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Live App
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+        </div>
+        <br />
+        <div className='__pictures'>
+          <img className='app__img' src={console1} alt='app-img' />
+>>>>>>> 8a6bd15746ef78b7692eccebeb50a41c8af12bb3
         </div>
       </div>
       <div className="project-section">
@@ -64,6 +103,7 @@ export default function Projects() {
         <p className="__projectTools">
           Javascript | React | SQL | Node | Express
         </p>
+<<<<<<< HEAD
         <a
           className="repo__link"
           rel="noopener noreferrer"
@@ -91,6 +131,33 @@ export default function Projects() {
           {/* <img className='app__img' src={foodful3} alt='app-img' /> */}
           {/* <img className='app__img' src={foodful4} alt='app-img' /> */}
           {/* <img className='app__img' src={foodful5} alt='app-img' /> */}
+=======
+        <div className='__repo__live'>
+          <a
+            className='repo__link'
+            rel='noopener noreferrer'
+            href='https://github.com/agiannotti/foodful-vercel'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Repository
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+          <a
+            className='live__link'
+            rel='noopener noreferrer'
+            href='https://foodful.agiannotti.vercel.app/'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Live App
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+        </div>
+        <br />
+        <div className='__pictures'>
+          <img className='app__img' src={foodful1} alt='app-img' />
+>>>>>>> 8a6bd15746ef78b7692eccebeb50a41c8af12bb3
         </div>
       </div>
       <div className="project-section">
@@ -98,6 +165,7 @@ export default function Projects() {
         <p className="__projectDesc">
           A minimalist display of bookmark functionality!
         </p>
+<<<<<<< HEAD
         <p className="__projectTools">Javascript | Jquery | Webpack</p>
         <a
           className="repo__link"
@@ -124,6 +192,34 @@ export default function Projects() {
           <img className="app__img" src={bookmark1} alt="app-img" />
           {/* <img className='app__img' src={bookmark2} alt='app-img' /> */}
           {/* <img className='app__img' src={bookmark3} alt='app-img' /> */}
+=======
+        <p className='__projectTools'>Javascript | Jquery | Webpack</p>
+        <div className='__repo__live'>
+          <a
+            className='repo__link'
+            rel='noopener noreferrer'
+            href='https://github.com/agiannotti/bookmark-app'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Repository
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+          <a
+            className='live__link'
+            rel='noopener noreferrer'
+            href='https://agiannotti.github.io/bookmark-app/dist/'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Live App
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+        </div>
+        <br />
+        <div className='__pictures'>
+          <img className='app__img' src={bookmark1} alt='app-img' />
+>>>>>>> 8a6bd15746ef78b7692eccebeb50a41c8af12bb3
         </div>
       </div>
       <div className="project-section">
@@ -131,6 +227,7 @@ export default function Projects() {
         <p className="__projectDesc">
           A quiz application utilizing JS and Jquery.
         </p>
+<<<<<<< HEAD
         <p className="__projectTools">Javascript | Jquery</p>
         <a
           className="repo__link"
@@ -157,6 +254,34 @@ export default function Projects() {
           <img className="app__img" src={quiz1} alt="app-img" />
           {/* <img className='app__img' src={quiz2} alt='app-img' /> */}
           {/* <img className='app__img' src={quiz3} alt='app-img' /> */}
+=======
+        <p className='__projectTools'>Javascript | Jquery</p>
+        <div className='__repo__live'>
+          <a
+            className='repo__link'
+            rel='noopener noreferrer'
+            href='https://github.com/agiannotti/quiz-app'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Repository
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+          <a
+            className='live__link'
+            rel='noopener noreferrer'
+            href='https://agiannotti.github.io/quiz-app/'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Live App
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+        </div>
+        <br />
+        <div className='__pictures'>
+          <img className='app__img' src={quiz1} alt='app-img' />
+>>>>>>> 8a6bd15746ef78b7692eccebeb50a41c8af12bb3
         </div>
       </div>
       <div className="project-section">
@@ -168,6 +293,7 @@ export default function Projects() {
           {" "}
           Javascript | SQL | Vercel | Heroku | Node | Express
         </p>
+<<<<<<< HEAD
         <a
           className="repo__link"
           rel="noopener noreferrer"
@@ -194,6 +320,33 @@ export default function Projects() {
           {/* <img className='app__img' src={spacedrep2} alt='app-img' /> */}
           {/* <img className='app__img' src={spacedrep3} alt='app-img' /> */}
           {/* <img className='app__img' src={spacedrep4} alt='app-img' /> */}
+=======
+        <div className='__repo__live'>
+          <a
+            className='repo__link'
+            rel='noopener noreferrer'
+            href='https://github.com/agiannotti/spaced-rep-client'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Repository
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+          <a
+            className='live__link'
+            rel='noopener noreferrer'
+            href='https://spaced-rep-ajg.vercel.app/login'
+            target='_blank'
+            style={{ textDecoration: 'none' }}
+          >
+            Live App
+            <img className='launch-img' src={launch} alt='launch-img' />
+          </a>
+        </div>
+        <br />
+        <div className='__pictures'>
+          <img className='app__img' src={spacedrep1} alt='app-img' />
+>>>>>>> 8a6bd15746ef78b7692eccebeb50a41c8af12bb3
         </div>
       </div>
       <footer className="mobile-footer">©Agiannotti</footer>
