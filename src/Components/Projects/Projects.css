@@ -21,7 +21,7 @@
   margin: 0;
   margin-bottom: 30px;
   padding: 1rem;
-  filter: drop-shadow(0.1rem 0.1rem 0.5rem rgb(36, 34, 34));
+  filter: drop-shadow(0.1rem 0.1rem 0.4rem rgb(68, 66, 66));
   border-radius: 12px;
 }
 .project-container h2 {
@@ -48,7 +48,7 @@
   justify-content: center;
   margin: 0;
   border-radius: 12px;
-  filter: drop-shadow(0.1rem 0.1rem 0.3rem rgb(53, 51, 51));
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(53, 49, 49));
 }
 .__projectTools {
   font-size: 9px;
@@ -64,7 +64,7 @@
   padding-bottom: 4px;
 }
 .__projectsTagline {
-  filter: drop-shadow(0 0 0.1rem rgb(0, 0, 0));
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(53, 49, 49));
   padding-top: 22px;
   padding-left: 36.8px;
 }
@@ -181,7 +181,7 @@
     padding-top: 22px;
   }
   .header-box {
-    padding-left: 58px;
+    /* padding-left: 58px; */
   }
   .__projectsTagline {
     padding-left: 90px;
@@ -194,7 +194,7 @@
 
 @media (min-width: 1500px) {
   .main {
-    left: 170px;
+    left: 140px;
   }
   .__projectsTagline {
     padding-left: 145px;
