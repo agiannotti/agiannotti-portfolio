@@ -46,6 +46,7 @@
   display: flex;
   justify-content: center;
   margin: 0;
+  border-radius: 12px;
 }
 .__projectTools {
   font-size: 9px;
@@ -79,7 +80,7 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(31, 28, 28));
+  /* filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(31, 28, 28)); */
 }
 .__pictures::-webkit-scrollbar {
   width: 3px;

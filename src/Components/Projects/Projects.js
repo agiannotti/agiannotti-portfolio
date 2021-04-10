@@ -181,7 +181,7 @@ export default function Projects() {
         <a
           className='live__link'
           rel='noopener noreferrer'
-          href='https://spaced-rep-ajg.vercel.app/'
+          href='https://spaced-rep-ajg.vercel.app/login'
           target='_blank'
           style={{ textDecoration: 'none' }}
         >
