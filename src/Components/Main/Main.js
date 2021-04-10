@@ -1,20 +1,19 @@
-import React from 'react';
-import './Main.css';
-import Header from '../Header/Header';
-import Projects from '../Projects/Projects';
+import React from "react";
+import "./Main.css";
+import Header from "../Header/Header";
+import Projects from "../Projects/Projects";
 
 export default function Main() {
   return (
-    <div className='theBiggestBoy'>
-      <div className='main'>
-        <header className='header'>
-          <div className='__headline'>
+    <div className="theBiggestBoy">
+      <div className="main">
+        <header className="header">
+          <div className="__headline">
             <h1>Hello, I'm Anthony Giannotti.</h1>
-            <p className='__About'>
-              I'm a Chicago-based programmer, primarily focusing on Javascript,
-              React, SQL, and Node. I have a passion for dynamic and interesting
-              applications, thinking broadly, and tuning into the latest
-              advancements in software development.
+            <p className="__About">
+              A Chicago-based full-stack web developer. I have a passion for
+              dynamic and interesting applications, thinking broadly, and
+              tuning-in to the latest advancements in software development.
               {/* <br />
               <br />I strive to learn, to focus, and to listen. My goal is to
               become part of a team of hardworking developers, and to hone my
@@ -27,7 +26,7 @@ export default function Main() {
           </div>
         </header>
         <Header />
-        <footer className='main-footer'>©Agiannotti</footer>
+        <footer className="main-footer">©Agiannotti</footer>
       </div>
       <Projects />
     </div>
