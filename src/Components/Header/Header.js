@@ -19,7 +19,9 @@ export default function HeaderBar() {
             <br /> Chicago, Illinois.
             <br /> */}
             <ul className="__bio">
-              <li>Software Engineer | Javascript | React</li>
+              <li>
+                Software Engineer | Javascript | React | Chicago, Illinois
+              </li>
               <li>Cat Dad</li>
               <li>CSS Lover</li>
               <li>Musician</li>
