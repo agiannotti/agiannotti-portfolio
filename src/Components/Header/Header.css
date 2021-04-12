@@ -2,35 +2,32 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 0;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding: 1.5rem;
 }
 
 .__headline {
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
   margin: 0;
-  padding-bottom: 0.5rem;
   line-height: 3.4rem;
 }
 
 .header h1 {
   font-size: 38px;
   margin: 0;
-  padding: 1rem;
   line-height: 42px;
   letter-spacing: 0px;
+  padding-bottom: 28px;
 }
 
 .header p {
   margin: 0;
   margin-bottom: 20px;
-  padding: 1rem;
   font-size: 0.7rem;
   color: rgb(170, 165, 165);
   letter-spacing: 0.06rem;
   line-height: normal;
+  max-width: 90%;
 }
 
 .header-box {
