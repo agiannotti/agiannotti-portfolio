@@ -10,7 +10,7 @@ import spacedrep1 from '../../Images/Apps/SpacedRep/Main.png';
 export default function Projects() {
   return (
     <div className='project-container'>
-      <h2 className='__projectsTagline'>Projects</h2>
+      <h2 className='__projectsTagline'>Projects.</h2>
       <div className='project-section'>
         <p className='__projectTitle'>Console.dev</p>
         <p className='__projectDesc'>Code Typing Test Web Application.</p>

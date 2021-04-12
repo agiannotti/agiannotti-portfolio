@@ -6,8 +6,9 @@ html {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(220, 13%, 18%);
-  min-height: 100vh;
+  background: linear-gradient(180deg, #383f51 0%, #88a0a8 100%);
+
+  min-height: 500vh;
   box-sizing: border-box;
 }
 
