@@ -20,11 +20,11 @@ export default function HeaderBar() {
             <br /> */}
             <ul className="__bio">
               <li>Software Engineer | Javascript | React</li>
-              <li>Chicago, Illinois</li>
               <li>Cat Dad</li>
-              <li>CSS nerd</li>
+              <li>CSS Lover</li>
               <li>Musician</li>
               <li>Former Chef</li>
+              <li>Coffee nerd</li>
             </ul>
           </p>
         </div>
