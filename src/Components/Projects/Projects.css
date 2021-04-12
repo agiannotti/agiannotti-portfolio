@@ -1,6 +1,5 @@
 .main {
   width: 95%;
-  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,6 +92,8 @@
 }
 @media (min-width: 800px) {
   .main {
+    position: fixed;
+
     width: 60%;
     max-width: 600px;
     float: left;
