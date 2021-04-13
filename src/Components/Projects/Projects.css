@@ -95,7 +95,6 @@
 @media (min-width: 800px) {
   .main {
     position: fixed;
-
     width: 60%;
     max-width: 600px;
     float: left;
@@ -123,7 +122,8 @@
     max-width: 90%;
     margin: auto;
     margin-top: 32px;
-    padding-bottom: 135px;
+    margin-bottom: 60px;
+    padding-bottom: 245px;
   }
 
   .__repo__live {
