@@ -104,6 +104,9 @@
   .header {
     max-width: 395px;
   }
+  .header h1 {
+    padding-left: 0px;
+  }
   .project-container {
     border-radius: 20px;
     width: 50%;
