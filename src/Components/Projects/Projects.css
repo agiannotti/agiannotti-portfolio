@@ -61,10 +61,12 @@
   margin: 0;
   font-size: 28px;
   padding-bottom: 10px;
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(63, 57, 57, 0.638));
 }
 .__projectsTagline {
   padding-top: 22px;
   padding-left: 36.8px;
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.618));
 }
 .__projectDesc {
   font-size: 12px;
