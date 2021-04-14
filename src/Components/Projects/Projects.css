@@ -177,8 +177,8 @@
 
 @media (min-width: 1200px) {
   .main {
-    padding-top: 80px;
-    padding-left: 80px;
+    padding-top: 90px;
+    padding-left: 50px;
   }
   .project-container {
   }
@@ -186,8 +186,8 @@
 
 @media (min-width: 1500px) {
   .main {
-    padding-top: 80px;
-    padding-left: 230px;
+    padding-top: 88px;
+    padding-left: 250px;
   }
   .app__img {
     width: 600px;
