@@ -125,8 +125,8 @@
     max-width: 90%;
     margin: auto;
     margin-top: 32px;
-    margin-bottom: 60px;
-    padding-bottom: 245px;
+    margin-bottom: 10px;
+    padding-bottom: 135px;
   }
 
   .__repo__live {
@@ -180,8 +180,6 @@
     padding-top: 90px;
     padding-left: 50px;
   }
-  .project-container {
-  }
 }
 
 @media (min-width: 1500px) {
@@ -193,6 +191,6 @@
     width: 600px;
   }
   .project-section {
-    padding-bottom: 300px;
+    padding-bottom: 270px;
   }
 }
