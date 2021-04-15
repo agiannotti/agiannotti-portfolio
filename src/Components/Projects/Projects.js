@@ -13,10 +13,11 @@ export default function Projects() {
       <h2 className='__projectsTagline'>Projects</h2>
       <div className='project-section'>
         <p className='__projectTitle'>Console.dev</p>
-        <p className='__projectDesc'>Code Typing Test Web Application.</p>
         <p className='__projectTools'>
           Javascript | React, Hooks, Context | Node | Express | Mocha, Chai
         </p>
+        <p className='__projectDesc'>Code Typing Test Web Application.</p>
+
         <div className='__repo__live'>
           <a
             className='repo__link'
@@ -46,13 +47,14 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Foodful</p>
-        <p className='__projectDesc'>
-          Foodful aims to unify communities and feed hungry families and
-          individuals by creating a platform for people to share resources.
-        </p>
         <p className='__projectTools'>
-          Javascript | React | SQL | Node | Express
+          Javascript | React, React Router Dom | SQL | Node | Express
         </p>
+        <p className='__projectDesc'>
+          Locally hosted database and RESTful API communicating with a dynamic
+          client-side application.
+        </p>
+
         <div className='__repo__live'>
           <a
             className='repo__link'
@@ -82,12 +84,13 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Spaced-Repetition</p>
-        <p className='__projectDesc'>
-          Learn latin phrases by utilizing the spaced repetition technique.
-        </p>
+
         <p className='__projectTools'>
           {' '}
           Javascript | SQL | Vercel | Heroku | Node | Express
+        </p>
+        <p className='__projectDesc'>
+          Learn latin phrases by utilizing the spaced repetition technique.
         </p>
         <div className='__repo__live'>
           <a
@@ -118,10 +121,13 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Bookmarked</p>
+        <p className='__projectTools'>Javascript | Jquery | Webpack</p>
         <p className='__projectDesc'>
           A minimalist display of bookmark functionality!
+          <br />
+          Event handling, DOM traversal & manipulation, error-handling, testing,
+          A11y best practices
         </p>
-        <p className='__projectTools'>Javascript | Jquery | Webpack</p>
         <div className='__repo__live'>
           <a
             className='repo__link'
@@ -151,10 +157,11 @@ export default function Projects() {
       </div>
       <div className='project-section'>
         <p className='__projectTitle'>Quiz App</p>
+
+        <p className='__projectTools'>Javascript | Jquery</p>
         <p className='__projectDesc'>
           A quiz application utilizing JS and Jquery.
         </p>
-        <p className='__projectTools'>Javascript | Jquery</p>
         <div className='__repo__live'>
           <a
             className='repo__link'
