@@ -20,9 +20,8 @@ export default function HeaderBar() {
             <br /> */}
             <ul className='__bio'>
               <li>Software Engineer</li>
-              <li>Javascript | React </li>
+              <li>Javascript | React | PHP</li>
               <li>API's | SQL | Express | Node</li>
-              <li>Former Chef</li>
             </ul>
           </p>
         </div>
