@@ -14,10 +14,6 @@ export default function HeaderBar() {
         <div className='__headline'>
           <h1>Hello, I'm Anthony Giannotti.</h1>
           <p className='__About'>
-            {/* Software Engineer <br />
-            Cat Dad
-            <br /> Chicago, Illinois.
-            <br /> */}
             <ul className='__bio'>
               <li>Software Engineer</li>
               <li>Javascript | TypeScript | Angular | React</li>
