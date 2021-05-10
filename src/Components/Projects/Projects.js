@@ -1,5 +1,4 @@
 import React from 'react';
-import './Projects.css';
 import launch from '../../Images/Thumbnails/launch.png';
 import bookmark1 from '../../Images/Apps/Bookmarked/Main.png';
 import console1 from '../../Images/Apps/Console.dev/Main.png';

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css';
 
 import face from '../../Images/Photo/soho-self.jpg';
 import launch from '../../Images/Thumbnails/launch.png';
